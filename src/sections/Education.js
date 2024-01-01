@@ -1,7 +1,7 @@
-import { Edu } from "./data/eduction";
-import { EduCard } from "./components/educard";
+import { Edu } from "../data/eduction";
+import { EduCard } from "../components/educard";
 import Slide from "react-reveal/Slide";
-import Timeline from "./components/timeline";
+import Timeline from "../components/timeline";
 
 export default function Education() {
   return (

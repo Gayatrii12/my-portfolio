@@ -6,13 +6,16 @@ module.exports = {
       primary: ["IBM Plex Mono", "Times", "serif"],
       secondary: ["Space Grotesk", "Helvetica", "sans-serif"],
       gilmer: ["Gilmer", "sans-serif"],
-      robo: ['"Roboto Condensed"'],
-      poppins: ["poppins", "Verdana", "sans-serif"],
-      circular: ["Circular Book", "sans-serif"],
+      roboto: ["Roboto", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+      circular: ["Circular", "Helvetica", "Arial", "sans-serif"],
     },
     extend: {
       animation: {
-        wiggle: "wiggle 1s ease-in-out infinite",
+        bounceslow: "bounce 0.5s linear infinite",
+      },
+      backgroundImage: {
+        "hero-pattern": "url('/src/Images/sky.png')",
       },
     },
   },
