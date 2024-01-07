@@ -11,7 +11,7 @@ export default function About()
        </span>
      </div>
 
-     <div class=" font-poppins text-[#CBADD9] text-center flex justify-center sm:mx-16 lg:mx-28">
+     <div class=" font-poppins text-white text-center flex justify-center sm:mx-16 lg:mx-28">
        <p class="flex justify-center lg:text-2xl sm:text-xl lg:px-32 sm:px-16">
          Hello there! I'm Gayatri Sawant, a third-year undergraduate pursuing
          Computer Engineering at SCTR's Pune Institute of Computer Technology.
