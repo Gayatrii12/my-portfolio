@@ -1,6 +1,6 @@
 import Image from "../Images/pic1.png";
-import Slide from "react-reveal/Slide";
-import Fade from "react-reveal/Fade";
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Moon from "../Images/moon.png"
 import Typewriter from "../components/type";
 
@@ -14,7 +14,7 @@ export default function Hero() {
     <div class="">
       <div class="bg-gradient-to-b from-[#8e3eb3]/[0.5] flex justify-start">
         <img
-          class="h-auto w-48 rounded-full transition duration-200 ease-in-out transform hover:scale-110"
+          class="h-auto w-48 rounded-full transition duration-200 ease-in-out transform hover:scale-110 animate-pulse"
           src={Moon}
           alt="Moon"
         />
@@ -22,15 +22,15 @@ export default function Hero() {
 
       <div class="bg-black grid place-items-center lg:grid-cols-3">
         <div class="col-span-2 ">
-          <div class="text-[#CBADD9] font-poppins px-4 text-xl font-semibold ">
+          <div class="text-[#CBADD9] font-poppins px-4 text-xl font-semibold">
             <Fade>Hey! I'm</Fade>
           </div>
           <div class="text-[#8e3eb3] font-poppins px-4 lg:text-6xl sm: text-5xl font-bold  pb-1 my-2">
             <Fade>Gayatri Sawant.</Fade>
           </div>
-          <div>
+          {/* <div>
             <Typewriter />
-          </div>
+          </div> */}
 
           <div class="text-[#CBADD9] font-semibold px-4 lg:text-5xl sm: text-4xl pb-3">
             <Fade>Web Developer |</Fade>
@@ -44,13 +44,13 @@ export default function Hero() {
               onClick={hrefFunction}
               class="w-24 rounded-md ring-1 ring-[#CBADD9] py-1 font-poppins flex place-content-center text-[#CBADD9] text-xl font-medium hover:bg-[#CBADD9] hover:text-black"
             >
-              Resume
+              <Fade>Resume</Fade>
             </button>
           </div>
         </div>
 
-        <Slide right>
-          <div class="flex justify-center col-span-1">
+        <Slide direction="right" triggerOnce>
+          <div class="flex justify-center col-span-1 animate-fade-left animate-once animate-duration-1000 animate-delay-0 animate-ease-in">
             <img
               class="h-auto w-96 rounded-full transition duration-200 ease-in-out transform hover:bg-[#CBADD9]/[0.5] hover:scale-110"
               src={Image}

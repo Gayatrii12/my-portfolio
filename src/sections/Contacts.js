@@ -1,7 +1,7 @@
-import { Fade } from "react-reveal/Fade";
+// import { Fade } from "react-reveal/Fade";
 import Ast from "../Images/ast.png";
 import End from "../Images/7756627.png"
-import { Slide } from "react-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export default function Contacts() {
     return (
@@ -12,9 +12,9 @@ export default function Contacts() {
           </span>
         </div>
         <div class="grid grid-cols-3">
-          <div class="flex justify-center col-span-1">
+          <div class="flex justify-center col-span-1 animate-wiggle animate-infinite">
             <img
-              class="h-auto lg:w-72 sm:w-48 rounded-full animate-bounceslow"
+              class="h-auto lg:w-72 sm:w-48 rounded-full"
               src={Ast}
               alt="Ast"
             />
@@ -26,45 +26,51 @@ export default function Contacts() {
             </p>
 
             <div class="flex flex-row my-3 lg:mt-10">
-              <img
-                class="lg:h-8 lg:w-8 sm:h-2"
-                src="https://img.icons8.com/material-rounded/24/9F6BB7/mail.png"
-              />
-              <a href="mailto:sawantgd03@gmail.com">
-                <span class="text-[#9F6BB7] lg:text-xl sm: text-md mx-2">
-                  sawantgd03@gamil.com
-                </span>
-              </a>
+              <Slide direction="right" triggerOnce>
+                <img
+                  class="lg:h-8 lg:w-8 sm:h-2"
+                  src="https://img.icons8.com/material-rounded/24/9F6BB7/mail.png"
+                />
+                <a href="mailto:sawantgd03@gmail.com">
+                  <span class="text-[#9F6BB7] lg:text-xl sm: text-md mx-2">
+                    sawantgd03@gamil.com
+                  </span>
+                </a>
+              </Slide>
             </div>
             <div class="flex flex-row my-3">
-              <img
-                class="lg:h-8 lg:w-8 sm:h-2 "
-                src="https://img.icons8.com/ios-filled/24/9F6BB7/linkedin.png"
-              />
-              <a href="https://www.linkedin.com/in/gayatri-sawant-115689179/">
-                <span class="text-[#9F6BB7] lg:text-xl sm:text-sm mx-2">
-                  Gayatri Sawant
-                </span>
-              </a>
+              <Slide direction="right" triggerOnce>
+                <img
+                  class="lg:h-8 lg:w-8 sm:h-2 "
+                  src="https://img.icons8.com/ios-filled/24/9F6BB7/linkedin.png"
+                />
+                <a href="https://www.linkedin.com/in/gayatri-sawant-115689179/">
+                  <span class="text-[#9F6BB7] lg:text-xl sm:text-sm mx-2">
+                    Gayatri Sawant
+                  </span>
+                </a>
+              </Slide>
             </div>
             <div class="flex flex-row my-3">
-              <img
-                class="lg:h-8 lg:w-8 sm:h-4"
-                src="https://img.icons8.com/ios-glyphs/24/9F6BB7/github.png"
-              />
-              <a href="https://github.com/Gayatrii12">
-                <span class="text-[#9F6BB7] lg:text-xl sm:text-sm mx-2">
-                  Gayatrii12
-                </span>
-              </a>
+              <Slide direction="right" triggerOnce>
+                <img
+                  class="lg:h-8 lg:w-8 sm:h-4"
+                  src="https://img.icons8.com/ios-glyphs/24/9F6BB7/github.png"
+                />
+                <a href="https://github.com/Gayatrii12">
+                  <span class="text-[#9F6BB7] lg:text-xl sm:text-sm mx-2">
+                    Gayatrii12
+                  </span>
+                </a>
+              </Slide>
             </div>
           </div>
         </div>
-        <Slide bottom>
-          <div class="flex justify-center">
+        <div class="flex justify-center">
+          <Slide direction="up" triggerOnce>
             <img class="h-auto w-full" src={End} alt="Pic" />
-          </div>
-        </Slide>
+          </Slide>
+        </div>
       </div>
     );
 }

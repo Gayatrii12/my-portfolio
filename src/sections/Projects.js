@@ -1,6 +1,6 @@
 import { Project } from "../data/projects";
 import { ProjectCard } from "../components/projectcard";
-import Slide from "react-reveal/Slide";
+import { Slide } from "react-awesome-reveal";
 
 export default function Projects() {
   return (
@@ -11,10 +11,10 @@ export default function Projects() {
         </span>
       </div>
       <div class="mx-4 my-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 pt-12 place-items-center">
-        <Slide bottom>
-          {Project.map((project, index) => {
-            return <ProjectCard details={project} key={index} />;
-          })}
+        <Slide direction="up" triggerOnce>
+        {Project.map((project, index) => {
+          return <ProjectCard details={project} key={index} />;
+        })}
         </Slide>
       </div>
     </div>

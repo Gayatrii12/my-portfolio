@@ -1,5 +1,5 @@
 import Img from "../Images/bg.png"
-import Slide from "react-reveal/Slide";
+import { Slide } from "react-awesome-reveal";
 
 export default function About()
 {
@@ -23,11 +23,11 @@ export default function About()
          binge watching kdramas and sometimes I draw :)
        </p>
      </div>
-     <Slide bottom>
-       <div class="flex justify-center">
+     <div class="flex justify-center">
+       <Slide direction="up" triggerOnce>
          <img class="h-auto w-full" src={Img} alt="Pic" />
-       </div>
-     </Slide>
+       </Slide>
+     </div>
    </div>
  );
 };

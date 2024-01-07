@@ -1,6 +1,7 @@
 import { Data } from "../data/skills";
 import { SkillCard } from "../components/skillcard";
-import Fade from "react-reveal/Fade";
+import { Slide } from "react-awesome-reveal";
+// import Fade from "react-reveal/Fade";
 
 export default function Skills() {
   return (
@@ -11,12 +12,12 @@ export default function Skills() {
         </span>
       </div>
 
-      <div class="lg:mx-20 sm:mx-4 my-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 pt-12 ">
-        <Fade>
-          {Data.map((skill, index) => {
-            return <SkillCard details={skill} key={index} />;
-          })}
-        </Fade>
+      <div class="lg:mx-20 sm:mx-4 my-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 pt-12 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-in">
+        <Slide direction="up" triggerOnce>
+        {Data.map((skill, index) => {
+          return <SkillCard details={skill} key={index} />;
+        })}
+        </Slide>
       </div>
     </div>
   );

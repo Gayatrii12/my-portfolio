@@ -1,6 +1,6 @@
 import { Edu } from "../data/eduction";
 import { EduCard } from "../components/educard";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 import Timeline from "../components/timeline";
 
 export default function Education() {
@@ -13,11 +13,11 @@ export default function Education() {
       </div>
 
       <div class=" mx-6 my-auto grid sm:grid-cols-1 lg:grid-cols-3 gap-1 pt-12  ">
-        <Slide bottom>
+        {/* <Slide bottom> */}
           {Edu.map((edu, index) => {
             return <EduCard details={edu} key={index} />;
           })}
-        </Slide>
+        {/* </Slide> */}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 export const EduCard = (props) => {
   const { name, edu, date, res } = props.details;
   return (
