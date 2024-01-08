@@ -4,8 +4,8 @@ import { Slide } from "react-awesome-reveal";
 
 export default function Projects() {
   return (
-    <div class="bg-black">
-      <div class="pt-10 text-5xl font-poppins font-semibold flex justify-center">
+    <div class="bg-black ">
+      <div class="pt-10 text-5xl font-poppins font-semibold flex justify-center ">
         <span class="bg-clip-text text-transparent bg-gradient-to-b from-[#8e3eb3] to-[#d0aedf]">
           PROJECTS
         </span>

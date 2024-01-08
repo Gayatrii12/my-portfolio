@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal";
 
 export default function Skills() {
   return (
-    <div class="bg-black h-full">
+    <div class="bg-black h-full pt-12 scroll-smooth">
       <div class="pt-10 text-5xl font-poppins font-semibold flex justify-center">
         <span class="bg-clip-text text-transparent bg-gradient-to-b from-[#8e3eb3] to-[#d0aedf]">
           SKILLS
@@ -14,9 +14,9 @@ export default function Skills() {
 
       <div class="lg:mx-20 sm:mx-4 my-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 pt-12 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-in">
         <Slide direction="up" triggerOnce>
-        {Data.map((skill, index) => {
-          return <SkillCard details={skill} key={index} />;
-        })}
+          {Data.map((skill, index) => {
+            return <SkillCard details={skill} key={index} />;
+          })}
         </Slide>
       </div>
     </div>

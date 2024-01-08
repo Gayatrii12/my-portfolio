@@ -28,9 +28,7 @@ export default function Hero() {
           <div class="text-[#8e3eb3] font-poppins px-4 lg:text-6xl sm: text-5xl font-bold  pb-1 my-2">
             <Fade>Gayatri Sawant.</Fade>
           </div>
-          {/* <div>
-            <Typewriter />
-          </div> */}
+          {/* <Typewriter/> */}
 
           <div class="text-[#CBADD9] font-semibold px-4 lg:text-5xl sm: text-4xl pb-3">
             <Fade>Web Developer |</Fade>

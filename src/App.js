@@ -9,7 +9,7 @@ import Timeline from "./components/timeline";
 
 export default function App() {
   return (
-    <div class="bg-black">
+    <div class="bg-black scroll-smooth">
       {/* <Navbar /> */}
       <Hero />
       <About />

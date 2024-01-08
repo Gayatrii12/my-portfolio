@@ -4,7 +4,7 @@ import { Slide } from "react-awesome-reveal";
 export default function About()
 {
  return (
-   <div class="bg-black">
+   <div class="bg-black lg:pt-24 scroll-smooth ">
      <div class="py-10 text-5xl font-poppins font-semibold flex justify-center">
        <span class="bg-clip-text text-transparent bg-gradient-to-b from-[#8e3eb3] to-[#d0aedf]">
          ABOUT ME

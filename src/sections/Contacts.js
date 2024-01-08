@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal";
 
 export default function Contacts() {
     return (
-      <div class="bg-black h-full">
+      <div class="bg-black h-full lg:pt-12 scroll-smooth">
         <div class="py-10 text-5xl font-poppins font-semibold flex justify-center">
           <span class="bg-clip-text text-transparent bg-gradient-to-b from-[#8e3eb3] to-[#d0aedf]">
             CONTACT ME
@@ -14,7 +14,7 @@ export default function Contacts() {
         <div class="grid grid-cols-3">
           <div class="flex justify-center col-span-1 animate-wiggle animate-infinite">
             <img
-              class="h-auto lg:w-72 sm:w-48 rounded-full"
+              class="h-auto lg:w-72 sm:w-20  rounded-full"
               src={Ast}
               alt="Ast"
             />
