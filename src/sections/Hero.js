@@ -1,7 +1,7 @@
 import Image from "../Images/pic1.png";
 import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
-import Moon from "../Images/moon.png"
+import Moon from "../Images/moon.png";
 import Typewriter from "../components/type";
 
 export default function Hero() {
@@ -20,7 +20,7 @@ export default function Hero() {
         />
       </div>
 
-      <div class="bg-black grid place-items-center lg:grid-cols-3">
+      <div class="bg-black flex flex-col lg:grid place-items-center lg:grid-cols-3">
         <div class="col-span-2 ">
           <div class="text-[#CBADD9] font-poppins px-4 text-xl font-semibold">
             <Fade>Hey! I'm</Fade>
@@ -50,7 +50,7 @@ export default function Hero() {
         <Slide direction="right" triggerOnce>
           <div class="flex justify-center col-span-1 animate-fade-left animate-once animate-duration-1000 animate-delay-0 animate-ease-in">
             <img
-              class="h-auto w-96 rounded-full transition duration-200 ease-in-out transform hover:bg-[#CBADD9]/[0.5] hover:scale-110"
+              class="h-auto lg:w-96 sm: w-72 mx-auto rounded-full transition duration-200 ease-in-out transform hover:bg-[#CBADD9]/[0.5] hover:scale-110"
               src={Image}
               alt="Pic"
             />
