@@ -61,7 +61,7 @@ export const Data = [
   // },
   {
     name: "Node JS",
-    url: "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg",
+    url: "https://img.icons8.com/color/64/nodejs.png",
   },
   {
     name: "Express JS",
@@ -81,7 +81,7 @@ export const Data = [
   // },
   {
     name: "Tailwind",
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    url: "https://img.icons8.com/color/64/tailwindcss.png",
   },
   // {
   //     "name": "Docker",

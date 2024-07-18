@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js, jsx, ts, tsx}"],
   theme: {
     fontFamily: {
-      primary: ["IBM Plex Mono", "Times", "serif"],
-      secondary: ["Space Grotesk", "Helvetica", "sans-serif"],
+      sans: ["Poppins", "IBM Plex Mono", "Times", "serif"],
+      secondary: ["Poppins", "Space Grotesk", "Helvetica", "sans-serif"],
       gilmer: ["Gilmer", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
       poppins: ["Poppins", "sans-serif"],
@@ -19,8 +19,6 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("tailwindcss-animated")
-  ],
+  plugins: [require("tailwindcss-animated")],
 };
 

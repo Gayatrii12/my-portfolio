@@ -1,14 +1,14 @@
 import Image from "../Images/pic1.png";
 import { Slide } from "react-awesome-reveal";
+import { Typewriter } from "react-simple-typewriter";
 import { Fade } from "react-awesome-reveal";
 import Moon from "../Images/moon.png";
-import Typewriter from "../components/type";
+// import Typewriter from "../components/type";
 
 export default function Hero() {
   function hrefFunction() {
     window.location.href =
-      "https://drive.google.com/file/d/1dAPQT99HxplzTXtaBAxmcO2nzkRgdgRD/view?usp=drive_linkhttps://drive.google.com/file/d/1dAPQT99HxplzTXtaBAxmcO2nzkRgdgRD/view?usp=drive_link";
-  }
+      "https://drive.google.com/file/d/10G5i-EcRBJYCzUoRvdSZQG87LEAfTwqL/view?usp=drive_link"; }
 
   return (
     <div class="">
@@ -22,19 +22,26 @@ export default function Hero() {
 
       <div class="bg-black flex flex-col lg:grid place-items-center lg:grid-cols-3">
         <div class="col-span-2 ">
-          <div class="text-[#CBADD9] font-poppins px-4 text-xl font-semibold">
+          <div class="text-[#CBADD9] font-primary px-4 text-xl font-medium">
             <Fade>Hey! I'm</Fade>
           </div>
-          <div class="text-[#8e3eb3] font-poppins px-4 lg:text-6xl sm: text-5xl font-bold  pb-1 my-2">
+          <div class="text-[#8e3eb3] font-poppins px-4 lg:text-6xl sm: text-5xl font-semibold  pb-1 my-2">
             <Fade>Gayatri Sawant.</Fade>
           </div>
           {/* <Typewriter/> */}
 
-          <div class="text-[#CBADD9] font-semibold px-4 lg:text-5xl sm: text-4xl pb-3">
-            <Fade>Web Developer |</Fade>
-          </div>
-          <div class="text-[#CBADD9] font-semibold px-4 lg:text-5xl sm: text-4xl pb-10">
-            <Fade>Graphic Designer</Fade>
+          <div className="flex px-4 text-[#CBADD9] font-medium pb-10 lg:text-5xl sm:text-4xl">
+              <div>
+                <Typewriter
+                  words={["Full Stack Developer", "Graphic Designer", "ML Enthusiast"]}
+                  loop={0}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={90}
+                  deleteSpeed={50}
+                  delaySpeed={2000}
+                />
+              </div>
           </div>
           <div class="px-4 pb-4">
             <button

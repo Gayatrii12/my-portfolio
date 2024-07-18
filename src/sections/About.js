@@ -11,16 +11,19 @@ export default function About()
        </span>
      </div>
 
-     <div class=" font-poppins text-white text-center flex justify-center sm:mx-16 lg:mx-28">
-       <p class="flex justify-center lg:text-2xl sm:text-xl lg:px-32 sm:px-16">
-         Hello there! I'm Gayatri Sawant, a third-year undergraduate pursuing
-         Computer Engineering at SCTR's Pune Institute of Computer Technology.
-         I'm passionate about web development, with a focus on frontend
-         development and graphic design. But wait, there's more! I'm not just
-         stopping there—I'm also exploring Machine Learning, adding an extra
-         layer of excitement to my tech adventure.
-         <br></br>I'm a selenophile who loves reading novels, listening songs,
+     <div class=" text-white text-center flex justify-center sm:mx-16 lg:mx-28">
+       <p class="flex justify-center lg:text-xl sm:text-lg lg:px-32 sm:px-16">
+         Hello, I'm Gayatri Sawant, a final-year undergraduate student pursuing
+         a degree in Computer Engineering at SCTR's Pune Institute of Computer
+         Technology. I have a strong passion for full-stack web development and
+         machine learning. My academic journey and practical experiences have
+         equipped me with a solid foundation in both frontend and backend
+         development, as well as a keen interest in exploring advanced machine
+         learning techniques. I'm always eager to learn new things, take on
+         challenges, and explore new opportunities in the tech world.
+         <br></br><br></br>I'm a selenophile who loves reading novels, listening songs,
          binge watching kdramas and sometimes I draw :)
+         {/* <br></br> Let's connect and share our journeys! */}
        </p>
      </div>
      <div class="flex justify-center">

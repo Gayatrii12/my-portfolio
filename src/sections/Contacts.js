@@ -20,9 +20,9 @@ export default function Contacts() {
             />
           </div>
           <div class="flex flex-col item-center col-span-2">
-            <p class="text-white lg:text-2xl sm:text-md font-poppins">
-              Join me as I blend technology, creativity, and curiosity into a
-              dynamic mix of endless possibilities!
+            <p class="text-white lg:text-2xl sm:text-md font-poppins px-4">
+              Feel free to reach out to me for collaborations, opportunities, or just
+              a friendly chat!
             </p>
 
             <div class="flex flex-row my-3 lg:mt-10">

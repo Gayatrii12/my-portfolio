@@ -1,27 +1,32 @@
 export const ProjectCard = (props) => {
   const { name, desc, image, link } = props.details;
+
   return (
     <div className="bg-black flex flex-col justify-center items-center mx-4 my-4">
-      <div className=" h-124 border-2 border-[#8e3eb3]/[0.2] my-18 lg:h-128 transition duration-100 ease-in-out transform hover:bg-[#8e3eb3]/[0.2] hover:scale-105">
+      <div className="border-2 border-[#8e3eb3]/[0.2] rounded-lg w-84 my-18 h-128 lg:h-128 shadow-md transition duration-100 ease-in-out transform hover:shadow-purple-600 hover:scale-105">
         <div className="flex justify-center">
-          <img className=" h-48 w-96 opacity-70" src={image} alt={name} />
+          <img
+            className="h-48 w-84 object-cover rounded-t-lg opacity-70"
+            src={image}
+            alt={name}
+          />
         </div>
         <div className="text-[#d0aedf] font-poppins font-medium text-3xl text-center my-4">
           {name}
         </div>
-        <p className="text-white font-poppins text-center text-lg text-center mx-2 pb-2">
+        <p className="text-white font-poppins text-lg text-center mx-6 mb-4">
           {desc}
         </p>
-        <div class="flex justify-center">
-          <a href={link}>
+        <div className="flex justify-center border-purple-700">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             <img
-              class="my-4"
-              src="https://img.icons8.com/ios-glyphs/40/9F6BB7/github.png"
+              className="my-4 h-10 w-10 border-purple-700"
+              src="https://img.icons8.com/glyph-neue/64/9F6BB7/link.png"
               alt="github"
             />
           </a>
         </div>
-      </div>
+    \  </div>
     </div>
   );
 };
