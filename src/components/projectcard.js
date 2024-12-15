@@ -11,10 +11,10 @@ export const ProjectCard = (props) => {
             alt={name}
           />
         </div>
-        <div className="text-[#d0aedf] font-poppins font-medium text-3xl text-center my-4">
+        <div className="text-[#d0aedf] font-titillium font-medium text-3xl text-center my-4">
           {name}
         </div>
-        <p className="text-white font-poppins text-lg text-center mx-6 mb-4">
+        <p className="text-white font-titillium text-lg text-center mx-6 mb-4">
           {desc}
         </p>
         <div className="flex justify-center border-purple-700">
@@ -26,7 +26,8 @@ export const ProjectCard = (props) => {
             />
           </a>
         </div>
-    \  </div>
+        \{" "}
+      </div>
     </div>
   );
 };

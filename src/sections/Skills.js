@@ -5,8 +5,8 @@ import { Slide } from "react-awesome-reveal";
 
 export default function Skills() {
   return (
-    <div class="bg-black h-full pt-12 scroll-smooth">
-      <div class="pt-10 text-5xl font-poppins font-semibold flex justify-center">
+    <div class="bg-black h-full font-titillium pt-12 scroll-smooth">
+      <div class="pt-10 text-6xl font-titillium font-bold flex justify-center">
         <span class="bg-clip-text text-transparent bg-gradient-to-b from-[#8e3eb3] to-[#d0aedf]">
           SKILLS
         </span>

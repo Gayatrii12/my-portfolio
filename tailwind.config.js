@@ -9,6 +9,7 @@ module.exports = {
       roboto: ["Roboto", "sans-serif"],
       poppins: ["Poppins", "sans-serif"],
       circular: ["Circular", "Helvetica", "Arial", "sans-serif"],
+      titillium: ["Titillium Web", "Arial", "sans-serif"]
     },
     extend: {
       animation: {

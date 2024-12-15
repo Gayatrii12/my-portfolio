@@ -6,7 +6,7 @@ import { Slide } from "react-awesome-reveal";
 export default function Contacts() {
     return (
       <div class="bg-black h-full lg:pt-12 scroll-smooth">
-        <div class="py-10 text-5xl font-poppins font-semibold flex justify-center">
+        <div class="py-10 my-5 text-6xl font-titillium font-bold flex justify-center">
           <span class="bg-clip-text text-transparent bg-gradient-to-b from-[#8e3eb3] to-[#d0aedf]">
             CONTACT ME
           </span>
@@ -20,12 +20,12 @@ export default function Contacts() {
             />
           </div>
           <div class="flex flex-col item-center col-span-2">
-            <p class="text-white lg:text-2xl sm:text-md font-poppins px-4">
-              Feel free to reach out to me for collaborations, opportunities, or just
-              a friendly chat!
+            <p class="text-white lg:text-2xl sm:text-md font-titillium px-4">
+              Feel free to reach out to me for collaborations, opportunities, or
+              just a friendly chat!
             </p>
 
-            <div class="flex flex-row my-3 lg:mt-10">
+            <div class="flex flex-row my-3 lg:mt-10 font-titillium">
               <Slide direction="right" triggerOnce>
                 <img
                   class="lg:h-8 lg:w-8 sm:h-2"
@@ -38,7 +38,7 @@ export default function Contacts() {
                 </a>
               </Slide>
             </div>
-            <div class="flex flex-row my-3">
+            <div class="flex flex-row my-3 font-titillium">
               <Slide direction="right" triggerOnce>
                 <img
                   class="lg:h-8 lg:w-8 sm:h-2 "
@@ -51,7 +51,7 @@ export default function Contacts() {
                 </a>
               </Slide>
             </div>
-            <div class="flex flex-row my-3">
+            <div class="flex flex-row my-3 font-titillium">
               <Slide direction="right" triggerOnce>
                 <img
                   class="lg:h-8 lg:w-8 sm:h-4"

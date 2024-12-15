@@ -22,7 +22,7 @@ export default function Hero() {
 
       <div class="bg-black flex flex-col lg:grid place-items-center lg:grid-cols-3">
         <div class="col-span-2 ">
-          <div class="text-[#CBADD9] font-primary px-4 text-xl font-medium">
+          <div class="text-[#CBADD9] font-titillium px-4 text-xl font-medium">
             <Fade>Hey! I'm</Fade>
           </div>
           <div class="text-[#8e3eb3] font-poppins px-4 lg:text-6xl sm: text-5xl font-semibold  pb-1 my-2">
@@ -30,18 +30,22 @@ export default function Hero() {
           </div>
           {/* <Typewriter/> */}
 
-          <div className="flex px-4 text-[#CBADD9] font-medium pb-10 lg:text-5xl sm:text-4xl">
-              <div>
-                <Typewriter
-                  words={["Full Stack Developer", "Graphic Designer", "ML Enthusiast"]}
-                  loop={0}
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={90}
-                  deleteSpeed={50}
-                  delaySpeed={2000}
-                />
-              </div>
+          <div className="flex px-4 text-[#CBADD9] font-titillium font-medium pb-10 lg:text-5xl sm:text-4xl">
+            <div>
+              <Typewriter
+                words={[
+                  "Full Stack Developer",
+                  "Graphic Designer",
+                  "ML Enthusiast",
+                ]}
+                loop={0}
+                cursor
+                cursorStyle="|"
+                typeSpeed={90}
+                deleteSpeed={50}
+                delaySpeed={2000}
+              />
+            </div>
           </div>
           <div class="px-4 pb-4">
             <button

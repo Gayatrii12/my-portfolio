@@ -5,7 +5,7 @@ export const SkillCard = (props) => {
       <div class="w-16 mt-2 mb-2 flex-grow">
         <img src={url} alt={name} />
       </div>
-      <p class=" text-white text-lg font-sans text-center py-2">{name}</p>
+      <p class=" text-white text-lg font-titillium text-center py-2">{name}</p>
     </div>
   );
 };
